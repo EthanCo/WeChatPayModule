@@ -16,6 +16,7 @@ public class WeChatConfig {
 	//  API密钥，在商户平台设置 (商户平台-API安全中设置)
 	public static final String API_KEY = ""; //若提示签名错误 就是此处设置错误
 
+
 	public static class ShowMsgActivity {
 		public static final String STitle = "showmsg_title";
 		public static final String SMessage = "showmsg_message";

@@ -8,7 +8,7 @@
 3. 设置包名(必须一致)  
 4. 设置应用签名([使用签名工具生成](https://open.weixin.qq.com/zh_CN/htmledition/res/dev/download/sdk/Gen_Signature_Android.apk)，在手机上先装好正式版打包后的app，然后使用该签名工具生成)  
 5. 添加此Module依赖
-5. 在主app module 中，在app包名下新建wxapi文件夹，放入WXPayEntryActivity.java，该Activity会在支付完成后调用。 
+5. 在主app module 中，在app包名下新建wxapi文件夹，放入WXPayEntryActivity.java，该Activity会在支付完成后调用。  然后在Manifest中配置，同时添加scheme为APP_ID
 6. 使用WeChatPayDirector类的pay() 进行支付  
 
 ## 注意事项 ##
