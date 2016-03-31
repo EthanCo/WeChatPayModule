@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Cunyou.iml" filepath="$PROJECT_DIR$/Cunyou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeChatPayModule.iml" filepath="$PROJECT_DIR$/WeChatPayModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/wechatpay/wechatpay.iml" filepath="$PROJECT_DIR$/wechatpay/wechatpay.iml" />
     </modules>

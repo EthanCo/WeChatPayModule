@@ -12,7 +12,11 @@
 6. 使用WeChatPayDirector类的pay() 进行支付  
 
 ## 注意事项 ##
-send_music_thumb_backup.png 其实 为 jpg 格式 ，AS不能识别强制更改的格式，需改回为send_music_thumb_backup.jpg
+
+- send_music_thumb_backup.png 其实 为 jpg 格式 ，AS不能识别强制更改的格式，需改回为send_music_thumb_backup.jpg
+- 商户服务器生成支付订单，先调用【统一下单API】生成预付单，获取到prepay_id后将参数再次签名传输给APP发起支付
+- [统一下单](https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=9_1)为POST请求，发送内容为XML  
+- 统一下单传递的内容有中文时，需new String(str, "ISO8859-1")，进行编码转换
 
 ## 其他 ##
 > [官方文档](https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_5)  
